@@ -1,0 +1,6 @@
+{
+  "_comment": "Mock OFAC-style sanctions list for the demo. Exact-match only.",
+  "blocked_addresses": [
+    "rSANCT1oNEDxxxxxxxxxxxxxxxxxxxxxxx"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "per_tx_limit": 5000,
+  "daily_limit": 20000,
+  "approval_threshold": 10000,
+  "allowed_jurisdictions": ["CH", "EU", "US"],
+  "blocked_jurisdictions": ["IR", "KP"],
+  "allowed_purposes": ["settlement", "data_purchase", "compute"]
+}
