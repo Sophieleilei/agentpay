@@ -7,9 +7,14 @@ requires-python = ">=3.11"
 dependencies = [
     "xrpl-py>=5.0.0",
     "pydantic>=2.0",
-    "pydantic-ai-slim[anthropic]>=1.0",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "httpx>=0.27",
     "python-dotenv>=1.0",
 ]
+
+[project.scripts]
+safetygate = "src.service:main"
 
 [build-system]
 requires = ["hatchling"]
